@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <div class="input">
+                <input type="text" name="search-bar" id="search-bar" placeholder="Enter city name...">
+                <button id="search-button"><i class="material-icons" id="search-icon">search</i></button>
+            </div>
+            <div class="weather-info loading">
+                <h3 class="location">Weather in ...</h3>
+                <h1 class="temp">°C</h1>
+                <div class="flex-container">
+                    <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+                    <p class="description">Cloudy day</p>
+                </div>
+                <p class="humidity">Humidity: 60%</p>
+                <p class="wind">Wind: 3.5 km/h </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
