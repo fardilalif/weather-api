@@ -1,0 +1,1 @@
+Weather API is fetch from openweathermap.org
